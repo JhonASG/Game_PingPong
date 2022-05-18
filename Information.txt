@@ -1,0 +1,23 @@
+Juego de Ping - Pong:
+
+Este juego fue realizado con el lenguaje de programación JavaScript con el cual se logro dar la lógica que debía tener el juego para su funcionamiento, además, se hace uso de HTML y CSS para
+recrear el entorno gráfico de cada uno de los componentes que integra el juego.
+
+Mejoras:
+
+-> Permitir que el juego siga en funcionamiento después de que se anota un gol
+-> Mostrar el marcador de puntos de cada uno de los jugadores
+-> Validar después de que uno de los jugadores alcanzo n cantidad de puntos para finalizar el juego e indicar quien ha sido el ganador
+-> Poder reiniciar el juego
+
+Nota:
+
+Posteriormente se estara actualizando el juego con sus respectivas mejoras, por el momento esta es la versión 1.0 del juego de Ping Pong desarrollado en JavaScript.
+
+¿Cómo jugarlo?
+
+-> El jugador de la derecha se mueve de forma automática
+-> El jugador de la izquierda es la persona que para moverlo debe hacerlo con: [W para ir arriba] y [S para ir abajo]
+-> la pelota también se mueve de forma automática
+
+Espero que este desarrollo sea útil para que muchas más personas se enamoren de la programación.

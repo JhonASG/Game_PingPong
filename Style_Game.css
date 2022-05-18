@@ -1,0 +1,102 @@
+/*Damos los parametros de estilo para la zona o campo de juego*/
+.screen_game {
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    height: 650px;
+    border-color: rgb(245, 73, 20);
+    box-shadow: 5px 5px 10px rgb(255, 85, 85);
+    border-width: 5px;
+    border-style: solid;
+    position: relative;
+    left: 5%;
+    margin-top: 20px;
+}
+/*Decoramos el paddle con el que jugara la persona*/
+.paddle_human {
+    background-color: rgb(250, 152, 152);
+    border: rgb(245, 73, 20) solid 3px;
+    height: 150px;
+    width: 20px;
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    z-index: 100px;
+}
+/*Decoramos el paddle con el que jugara el computador*/
+.paddle_pc {
+    background-color: rgb(250,152,152);
+    border: rgb(245, 73, 20) solid 3px;
+    height: 150px;
+    width: 20px;
+    position: absolute;
+    top: 30%;
+    right: 30px;
+    z-index: 100px;
+}
+.line{
+    height: 650px;
+    border-right: red dashed 3px;
+    position: absolute;
+    left:50%;
+}
+/*Decoramos la pelota*/
+.ball{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}
+/*Declaramos los parametros para dar estilo a la sección donde se muestra el puntaje*/
+.score_father{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.score{
+    width: 20%;
+    height: 50px;
+    border-color: rgb(245, 73, 20);
+    box-shadow: 5px 5px 10px rgb(255, 85, 85);
+    border-width: 3px;
+    border-radius: 3px;
+    border-style: dashed;
+    margin-left: 40%;
+    margin-top: 0;
+    position: relative;
+    bottom: 15px;
+}
+.line_score{
+    height: 50px;
+    border-right: rgb(245,73,20) dashed 3px;
+    position: absolute;
+    left:50.1%;
+}
+.title_score{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 0;
+   margin: 0;
+}
+.title_human{
+    text-align: center;
+    padding: 0;
+    margin-right: 0px;
+    margin-left: 80%;
+    margin-top: 10px;
+    color: rgb(245,73,20);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.title_pc{
+    text-align: center;
+    padding: 0;
+    margin-right: 80%;
+    margin-left: 0px;
+    margin-top: 10px;
+    color: rgb(245, 73, 20);
+    font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+    font-weight: bold;
+}

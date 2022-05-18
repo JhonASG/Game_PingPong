@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style_Game.css" type="text/css" media="all">
+    <title>Ping Pong Game</title>
+</head>
+<body>
+    <!--Sección que es la zona de juego, la cual almacena todos los componentes del juego-->
+    <section class="screen_game" id="screen_game">
+        <!--Paddle de la persona que esta jugando-->
+        <div class="paddle_human" id="paddle_human"></div>
+        <!--Paddle del computador-->
+        <div class="paddle_pc" id="paddle_pc"></div>
+        <!--Pelota-->
+        <div class="ball" id="ball"></div>
+        <!--Linea divisora del campo-->
+        <div class="line" id="line"></div>
+    </section>
+    <!--Sección para almacenar el puntaje de los jugadores-->
+    <section class="score_father">
+        <!--Aca se tiene el titulo para cada jugador-->
+        <div class="title_score">
+            <h1 class="title_human">Humano</h1>
+            <h1 class="title_pc">Maquina</h1>
+        </div>
+        <!--Aca se tiene un contenedor para almacenar el puntaje-->
+        <div class="score" id="score">
+            <!--Contenedor para el puntaje del humano-->
+            <div class="score_human" id="score_human"></div>
+            <!--Linea de decoración para mostrar los puntajes-->
+            <div class="line_score" id="line_score"></div>
+            <!--Contenedor para el puntaje del computador-->
+            <div class="score_pc" id="score_pc"></div>
+        </div>
+    </section>
+    <script type="text/javascript" src="Logic_Game.js"></script>
+</body>
+</html>
